@@ -1,0 +1,62 @@
+* {
+  background-color: rgb(70, 105, 78);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 400px;
+  min-height: 400px;
+  background-color: rgb(125, 139, 135);
+  border: 1px solid green;
+  border-radius: 3%;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+p {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+.sort {
+  padding: 10px;
+}
+.player {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+
+  text-align: center;
+  justify-content: center;
+}
+.cell {
+  background-color: white;
+  color: black;
+  font-size: 55px;
+  font-family: 'Mansalva', sans-serif;
+  text-align: center;
+  justify-self: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+
+button {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: rgb(97, 146, 108);
+  border: 2px solid rgb(46, 59, 49);
+  border-radius: 5px;
+  margin-top: 20px;
+}
